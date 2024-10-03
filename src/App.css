@@ -12,7 +12,13 @@
 }
 
 .sidebar{
-background: purple;
+  position: sticky;
+  grid-area: sidebar;
+ background: purple;
+ top: 0;
+ left: 0;
+ align-self: start;
+
 }
 
 .main{
