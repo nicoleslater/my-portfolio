@@ -3,6 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="profile">
+        <img> </img>
+      </div>
     <aside className="sidebar"> 
         <div>
           Nicole Jasmine Slater

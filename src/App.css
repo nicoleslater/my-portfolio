@@ -5,20 +5,27 @@
 }
 
 .App {
-  background: purple;
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: auto;
+  grid-template-areas: "sidebar main";
 }
 
 .sidebar{
-  position: sticky;
-  grid-area: sidebar;
- background: purple;
- top: 0;
- left: 0;
- align-self: start;
+position: sticky;
+grid-area: sidebar;
+background: rgb(49, 36, 79);
+top: 0;
+left: 0;
+align-self: start;
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
+}
+.sidebar ul{
+  margin: 50px;
 }
 
 .main{
