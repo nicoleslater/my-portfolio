@@ -8,7 +8,11 @@
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "sidebar main";
+  grid-template-areas: 
+  "sidebar background",
+  "sidebar projects",
+  "sidebar skills",
+  "sidebar footer";
 }
 
 .sidebar{
