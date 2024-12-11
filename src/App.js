@@ -3,14 +3,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <div className="profile-picture">
-        <img> src={image} alt='picture' height= '122' width= '122'</img>
-      </div> */}
-    <aside className="sidebar"> 
+       <aside className="sidebar"> 
+      <div className="profile-picture">
+        <img  className= "profile-image" src={image} alt='picture' height= '122' width= '122'/>
+      </div> 
         <div>
           Nicole Jasmine Slater
         </div>
-      {/* <ul>
+      <ul>
         <a href='#'> Welcome</a>
       </ul>
       <ul>
@@ -21,7 +21,7 @@ function App() {
       </ul>
       <ul>
         <a href='#'>Contact Me</a>
-      </ul> */}
+      </ul>
    
       </aside>
       <main className="main">
@@ -35,7 +35,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       </main>
 
       <section className="background">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I am born and raised in Queens, currently residing in Brooklyn. I believe tht </p>
       </section>
       <section className="projects">
 

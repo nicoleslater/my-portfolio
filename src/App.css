@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 .App {
@@ -17,19 +18,74 @@
 
 .sidebar{
 position: sticky;
+min-height: 100vh;
 grid-area: sidebar;
 background: rgb(49, 36, 79);
 top: 0;
 left: 0;
 align-self: start;
-padding: 50px;
+padding-left: 50px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 
 }
-.sidebar ul{
-  margin: 50px;
+
+.profile-picture {
+  width: 127px;
+  height: 127px;
+  border-radius: 75px;
+  background-image: linear-gradient(to right, rgb(97, 67, 165), rgb(178, 78, 147));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image{
+  border-radius: 75px;
+}
+
+
+.sidebar ul li{
+  margin: 25px;
+}
+
+.sidebar ul li a{
+  position: relative;
+  color: grey;
+  font-size: xx-small;
+  font-weight: bold;
+  padding-bottom: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.342);
+
+  transition: all .25s ease-in-out;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a:focus {
+  color: rgb(171, 171, 171);
+}
+
+.sidebar ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.5px;
+  background-color: rgba(128, 128, 128, 0.342);
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: all .25s ease-in-out;
+
+}
+
+.sidebar ul li a:hover::before {
+  transform: scaleX(1);
 }
 
 .main{
