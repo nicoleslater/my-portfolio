@@ -10,7 +10,7 @@ function App() {
         <div>
           Nicole Jasmine Slater
         </div>
-      <ul>
+      {/* <ul>
         <a href='#'> Welcome</a>
       </ul>
       <ul>
@@ -21,7 +21,7 @@ function App() {
       </ul>
       <ul>
         <a href='#'>Contact Me</a>
-      </ul>
+      </ul> */}
    
       </aside>
       <main className="main">
