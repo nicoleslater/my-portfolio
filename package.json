@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "npm start",
-    "build": "npm build",
+    "build": "react-scripts build",
     "test": "npm test",
     "eject": "npm eject"
   },
