@@ -6,13 +6,13 @@ function App() {
     <div className="App">
        <aside className="sidebar"> 
       <div className="profile-picture">
-        <img  className= "profile-image" src={image} alt='picture' height= '122' width= '122'/>
+        <img  className= "profile-image" src={image} height= '122' width= '122'/>
       </div> 
         <div>
           Nicole Jasmine Slater
         </div>
       <ul>
-        <a href='#'> Welcome</a>
+        <a href='/'> Welcome</a>
       </ul>
       <ul>
         <a href='#'> Projects</a>
